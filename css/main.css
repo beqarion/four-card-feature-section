@@ -138,6 +138,11 @@ p {
   background: var(--blue);
 }
 @media screen and (min-width: 800px) {
+  /* card */
+  .feature {
+    padding: 32px;
+  }
+  /* --- */
   .features-section {
     padding-top: 80px;
     padding-bottom: 80px;
@@ -177,6 +182,14 @@ p {
   .feature-calculator {
     grid-area: 1/3/3/4;
     align-self: center;
+  }
+  /* card */
+  .feature-title {
+    margin-bottom: 6px;
+  }
+  .feature-image {
+    height: 64px;
+    width: auto;
   }
 }
 .feature-title {
