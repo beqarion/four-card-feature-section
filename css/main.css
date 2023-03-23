@@ -152,6 +152,7 @@ p {
     font-size: 36px;
     line-height: 54px;
     letter-spacing: 0.25px;
+    margin-bottom: 0;
   }
   .section-title {
     font-weight: 600;
